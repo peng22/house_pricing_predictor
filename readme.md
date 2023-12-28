@@ -41,7 +41,7 @@ python predict.py
 # predicted dictionary  shape
 Make sure the predicted dictionary to be in this form: \
 bathrooms from 1 to 3 \
-bedrooms from to to 5 \
+bedrooms from to to 5  \
 
 client = {"squarefeet":2126,
 "yearbuilt":1969,
