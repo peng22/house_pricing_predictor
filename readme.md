@@ -32,14 +32,17 @@ and run \
 python predict_local.py
 
 # Using the deployed model 
-to use the deployed model the url will be:
-url = 'http://peng24.pythonanywhere.com/predict_house_price' 
+to use the deployed model the url will be: \
+url = 'http://peng24.pythonanywhere.com/predict_house_price'  \
 then run \
 python predict.py
 
 
 # predicted dictionary  shape
-Make sure the predicted dictionary to be in this form:
+Make sure the predicted dictionary to be in this form: \
+bathrooms from 1 to 3 \
+bedrooms from to to 5 \
+
 client = {"squarefeet":2126,
 "yearbuilt":1969,
 "neighborhood":"Rural",
